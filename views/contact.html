@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap template</title>
+  <link rel="stylesheet" href="../static/all.css">
+  <link rel="stylesheet" href="../static/bootstrap.min.css">
+  <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body>
+<!-- HEADER AREA START HERE  -->
+<div class="header-area">
+  <!-- nav in here -->
+  
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">Rasturant</span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section-offer">Offer</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Manu
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#pills-breakfast-tab">Breakfast</a></li>
+                  <li><a class="dropdown-item" href="#pills-lunch">Lunch</a></li>
+                  <li><a class="dropdown-item" href="#pills-dinner-tab">Dinner</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Spacial manus</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section-about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact">Contact</a>
+              </li>
+
+            </ul>
+
+            <button class="btn btn-outline-success" data-bs-toggle="modal"
+              data-bs-target="#exampleModal2">RESERVATION</button>
+      
+            <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#ModalForm">LogIn</button>
+          </div>
+        </div>
+      </nav>
+  
+</div>
+<!-- HEADER AREA END HERE  -->
+
+
+<!-- CONTACT AREA START HERE -->
+<section class="rasturant-contact bg-light mt-5" id="contact-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="location mt-5">
+            <h4 text-align="center"> Let's get in touch</h4>
+            <p style="color: white;text-align: left;"> We're open for any suggestion or just to have a chat</p>
+            <p style="color: white;text-align: left;"><i class="fas fa-map-marker-alt"></i>Address :198 West 21th
+              Street, Suite 721 New York NY 10016</p>
+            <p style="color: white;text-align: left;"><i class="fas fa-phone"></i>Phone : +8801770397343</p>
+            <p style="color: white;text-align: left;"><i class="fas fa-envelope"></i>Email : amdadnaim03@gmail.com</p>
+            <p style="color: white;text-align: left;"><i class="fab fa-chrome"></i>Website : amdadnaim.com</p>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="massage mt-5">
+            <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+              <div class="row">
+                <h3 class="mb-3">Get in touch</h3>
+                <p style="text-align:left ; margin:0 0 7px 11px; padding:0;">Your message was sent, thank you!</p>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label class="label" for="name">Full Name</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label class="label" for="email">Email Address</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label class="label" for="subject">Subject</label>
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label class="label" for="#">Message</label>
+                    <textarea name="message" class="form-control" id="message" cols="30" rows="4"
+                      placeholder="Message"></textarea>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <input type="submit" value="Send Message" class="btn btn-success mt-2">
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- CONTACT AREA END HERE -->
+
+
+<!-- FOOTER AREA START HERE  -->
+<footer class="p-5 bg-dark text-light">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-6 col-lg-3">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Rasturant</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts.</p>
+            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Open Hours</h2>
+            <ul class="list-unstyled open-hours">
+              <li class="d-flex"><span>Monday</span><span>9:00 - 24:00</span></li>
+              <li class="d-flex"><span>Tuesday</span><span>9:00 - 24:00</span></li>
+              <li class="d-flex"><span>Wednesday</span><span>9:00 - 24:00</span></li>
+              <li class="d-flex"><span>Thursday</span><span>9:00 - 24:00</span></li>
+              <li class="d-flex"><span>Friday</span><span>9:00 - 02:00</span></li>
+              <li class="d-flex"><span>Saturday</span><span>9:00 - 02:00</span></li>
+              <li class="d-flex"><span>Sunday</span><span> 9:00 - 02:00</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Instagram</h2>
+            <img src="../static/offer-food-4.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Newsletter</h2>
+            <p>Far far away, behind the word mountains, far from the countries.</p>
+            <form action="#" class="subscribe-form">
+              <div class="form-group">
+                <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
+                <input type="submit" value="Subscribe" class="form-control submit px-3">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>
+            Copyright &copy;
+            <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+            <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made By <i
+              class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Naim
+              Ahmed</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- FOOTER AREA END HERE  -->
+
+
+<!-- JAVASCRIPT CODES WRITTEN START HERE -->
+ <script>
+    let b;
+    let c;
+    setInterval(() => {
+      let a = new Date();
+      b = a.getHours() + ":" + a.getMinutes() + ":" + a.getSeconds();
+      document.getElementById("clock").innerHTML = b;
+    }, 1000);
+  </script>
+<!-- JAVASCRIPT CODES WRITTEN END HERE -->
+
+
+<!-- JAVASCRIPT LINKS ARE DOWN HERE -->
+  <script src="../static/popper.min.js"></script>
+  <script src="../static/bootstrap.min.js"></script>
+
+
+</body>
+</html>

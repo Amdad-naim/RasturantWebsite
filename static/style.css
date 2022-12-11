@@ -1,0 +1,184 @@
+body{
+    margin:0;
+    padding:0;
+    font-size: 16px;
+    letter-spacing: 1.4px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+    letter-spacing: 1px;
+}
+.carousel-inner img{
+    height: 600px;
+}
+.navbar li{
+    margin-left: 20px;
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+}
+.welcome-image img{
+    height: 381px;
+    width: 542px;
+}
+.rasturant-about .card img{
+    height: 213px;
+    width: 100;
+}
+.resturant-manu img{
+    height: 142px;
+    
+}
+.resturant-manu .container-fluid .row{
+    margin-top: 10px;
+}
+.nav li{
+   margin-left: 100px;
+}
+.contact-area h6{
+    color: #9c9b9b;
+    letter-spacing: 3px;
+}
+.contact-area a{
+    text-decoration: none;
+    color: #9c9b9b;
+}
+.phone-no{
+    margin-top: 20px;
+}
+.contact-area i{
+    color:#ff4e00;
+}
+.singup-area .btn{
+    letter-spacing: 3px;
+    margin-left: 20px;
+}
+.singup-area i{
+    color:green;
+}
+
+
+/* for model */
+.modal-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .modal-body {
+    padding: 0;
+  }
+  .btn-close {
+    position: absolute;
+    right: 0;
+    padding: 1em;
+  }
+  h1 {
+    font-size: 2.3em;
+    font-weight: bold;
+  }
+  .myform {
+    padding: 2em;
+    max-width: 100%;
+    color: #fff;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+  }
+  @media (max-width: 576px) {
+    .myform {
+      max-width: 90%;
+      margin: 0 auto;
+    }
+  }
+  .form-control:focus {
+    box-shadow: inset 0 -1px 0 #7e7e7e;
+  }
+  .form-control {
+    background-color: inherit;
+    color: #fff;
+    padding-left: 0;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+  }
+  .myform .btn {
+    width: 100%;
+    font-weight: 800;
+    background-color: #fff;
+    border-radius: 0;
+    padding: 0.5em 0;
+  }
+  .myform .btn:hover {
+    background-color: inherit;
+    color: #fff;
+    border-color: #fff;
+  }
+  p {
+    color: grey;
+  }
+  p a {
+    color: #e1e1e1;
+    text-decoration: none;
+  }
+  p a:hover {
+    color: #fff;
+  }
+  /* location */
+
+  .location{
+    background-color: #1ba12d;
+    color:#fff;
+    padding:60px 40px;
+
+  }
+  .location p{
+    margin-top:43px;
+  }
+  .location i{
+    margin-right: 10px;
+  }
+
+  /* massage */
+
+  .massage{
+   
+    color:black;
+    padding:60px 40px;
+  }
+.massage label{
+    font-weight: bold;
+    margin:10px 0;
+}
+.massage input{
+    border-bottom: 1px solid red;
+    border-radius: 5px;
+    margin:10px 0;
+}
+.massage textarea{
+    border-bottom: 1px solid red;
+    border-radius: 5px;
+    margin:10px 0;
+}
+.massage input[type="submit"]{
+    background-color: #1ba12d;
+    border:1px solid #1ba12d;
+    color: white;
+    letter-spacing: 1px;
+    font-weight:600;
+}
+.massage input[type="submit"]:hover{
+    background-color:white;
+    color: green;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: white;
+    background-color:#dc3545;
+}
+@media screen and (min-width: 0px) and (max-width:576px) {
+ .card{
+  width: 14rem;
+  margin:0 auto;
+ }
+  
+}
+
+
